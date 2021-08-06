@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bieg">
+
+        <TextView
+            android:id="@+id/thah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/black"
+            android:paddingTop="10dp"
+            android:text="Set your Appointments "
+            android:textColor="@color/white"
+            android:textSize="29sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/first"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/thah"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="10dp"
+            android:paddingTop="20dp"
+            android:text="Names"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Names1"
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/first"
+            android:layout_marginTop="3dp"
+            android:paddingTop="10dp">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Names1"
+            android:layout_marginTop="1dp"
+            android:paddingTop="10dp"
+            android:text="Village"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Village"
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/second"
+            android:layout_marginTop="14dp"
+            android:paddingTop="10dp">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Village"
+            android:layout_marginTop="8dp"
+            android:paddingTop="10dp"
+            android:text="Age"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Age"
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/third"
+            android:layout_marginTop="1dp"
+            android:paddingTop="10dp">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/fourth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Age"
+            android:layout_marginTop="8dp"
+            android:paddingTop="10dp"
+            android:text="Gender"
+            android:textAlignment="center"
+            android:textColor="#100000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Gender"
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fourth"
+            android:layout_marginTop="7dp"
+            android:paddingTop="10dp">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/fifth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Gender"
+            android:layout_marginTop="8dp"
+            android:paddingTop="10dp"
+            android:text="Time"
+            android:textAlignment="center"
+            android:textColor="#100000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Time"
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fifth"
+            android:layout_marginTop="13dp"
+            android:paddingTop="10dp">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/sixth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Time"
+            android:layout_marginTop="8dp"
+            android:paddingTop="10dp"
+            android:text="Date"
+            android:textAlignment="center"
+            android:textColor="#0C0000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Date"
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sixth"
+            android:layout_marginTop="7dp"
+            android:paddingTop="10dp">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/but"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_below="@+id/Date"
+            android:layout_marginTop="2dp"
+            android:onClick="but"
+            android:text="Submit!!!!"
+            app:backgroundTint="@color/purple_700">
+
+        </Button>
+
+
+    </RelativeLayout>
+
+</ScrollView>
